@@ -15,7 +15,7 @@ export const useFetchApi = (url) => {
   const fetchApi = useCallback(() => {
     axios.get(url).then(response => {
       dispatch({ type: 'SET_DATA', payload: response.data })
-    }).catch()
+    }).catch(() => dispatch({ type: 'SET_DATA', payload: {} }))
   },[url])
 
   useEffect(() => fetchApi(), [fetchApi])
