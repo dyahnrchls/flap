@@ -3,7 +3,7 @@ Flip clone App using React Native.
 
 ## Screen
 
-![Image](https://content.screencast.com/users/dyahh/folders/flap/media/beac6b59-bbfb-4053-b2bf-15e0bc33e6c6/20200522_104936.gif)
+![Image](https://content.screencast.com/users/dyahh/folders/flap/media/633ce6f7-e5e1-439a-9126-fdcc4c9dee7c/20200522_105858.gif)
 
 ## Features
 * Transaction List
